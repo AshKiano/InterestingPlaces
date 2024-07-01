@@ -1,0 +1,16 @@
+name: InterestingPlaces
+version: '${project.version}'
+main: com.ashkiano.interestingplaces.InterestingPlaces
+api-version: 1.16
+authors: [ AshKiano ]
+commands:
+  startTour:
+    description: Starts the tour of interesting places
+    usage: /startTour
+  addLocation:
+    description: Adds a new location to the tour
+    usage: /addLocation <time>
+permissions:
+  interestingplaces.addlocation:
+    description: Allows adding new locations to the tour
+    default: op
